@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Регестрация</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ProjectX2.css">
+    <link rel="stylesheet" href="media-queries.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="register-form-container">
+            <form action="">
+                <div class="form-fields">
+                    <div class="form-field">
+                        <input type="phone number" placeholder="Номер телефона" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" placeholder="Фамилия" required pattern="[а-яА-Я]+"
+                            title="Фамилия может содержать только буквы.">
+                    </div>
+                    <div class="form-field">
+                        <input type="text" placeholder="Имя" required pattern="[а-яА-Я]+"
+                            title="Имя может содержать только буквы.">
+                    </div>
+                    <div class="form-field">
+                        <input type="email" placeholder="Почта" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="password" placeholder="Пароль" required minlength="8" maxlength="128">
+                    </div>
+                    <div class="form-field">
+                        <input type="password" placeholder="Повтарите пароль" required minlength="8" maxlength="128">
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <button class="button">Регистрация</button>
+                </div>
+                <div class="checked">
+                    <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off"/>
+                </div>
+                <div class="text">
+                  <p>Да, я хочу использовать Blob максимально эффективно: получать рассылки с эксклюзивными предложениями,персональными рекомендациями и советами по обучению!</p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

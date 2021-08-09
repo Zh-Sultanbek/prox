@@ -1,0 +1,10 @@
+@media screen and (max-width:480px) {
+.register-form-container{
+  height: 350px;
+  width: 280px;
+}
+
+.text{
+  font-size: 3px;
+}
+}
